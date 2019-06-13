@@ -1,0 +1,138 @@
+.root-div-padding {
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+
+.root-background {
+    background-color: rgb(225, 239, 246);
+}
+
+#override .ant-menu {
+    font-size: 18px;
+    background-color: rgb(153, 225, 217);
+    padding: 5px;
+    color: rgb(79, 124, 172)
+}
+
+#override .submenu-title-wrapper,
+#override .ant-menu-item>a {
+    color: rgb(70, 124, 172)
+}
+
+.app-name {
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: rgb(70, 124, 172);
+}
+
+.title-background {
+    background-color: rgb(251, 251, 242);
+    padding-top: 3.2rem;
+    padding-bottom: 3rem;
+}
+
+.title-font,
+.table-font,
+.list-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+.table-font,
+.list-font {
+    font-size: 16px;
+}
+
+.main-padding,
+.curbside_p-padding,
+.searchInput-padding,
+.searchResults-padding,
+.retailer_p-padding {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.main_header-padding {
+    padding-bottom: 1rem;
+}
+
+.main_header-fontstyle {
+    font-family: 'Raleway', sans-serif;
+}
+
+#override .ant-collapse {
+    font-size: 20px;
+    background-color: rgb(233, 244, 255);
+    font-family: 'Raleway', sans-serif;
+}
+
+.main_p-fontstyle,
+.curbside_p-fontstyle,
+.details_p-fontstyle,
+.retailer_p-fontstyle {
+    font-size: 18px;
+    color: rgb(79, 124, 172);
+    font-family: 'Raleway', sans-serif;
+}
+
+.retailer_list-fontstyle {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.retailer_category-style {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(79, 124, 172);
+}
+
+.anchor-padding {
+    padding-top: 4rem;
+}
+
+#override .ant-form label {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.details-padding {
+    padding: 1rem;
+    background-color: rgb(233, 244, 255);
+}
+
+.searchResults_list_header-margin {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.searchResults_list-padding {
+    padding: 1.5rem 1.5rem 1.5rem 0.5rem;
+    background-color: rgb(233, 244, 255);
+}
+
+#override .searchResults_button .ant-btn {
+    margin-left: 2.4rem;
+}
+
+#override .ant-btn {
+    font-family: 'Raleway', sans-serif;
+}
+
+#override .mapButton .ant-btn {
+    margin-left: 0.8rem;
+}
+
+#override .ant-back-top-content {
+    background-color: #1890ff
+}
+
+.footer {
+    background-color: rgb(153, 225, 217);
+    padding: 1.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
