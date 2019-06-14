@@ -3,6 +3,6 @@ module.exports = {
   connection: process.env.DATABASE_URL || {
     user: 'bonniet', 
     password: '', 
-    database: 'capstone-prj' 
+    database: 'recycling101' 
   }
 }
